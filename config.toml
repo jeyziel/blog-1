@@ -2,7 +2,7 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 builddrafts = false
-baseurl = "http://whipperstacker.com/"
+baseurl = "http://kytrinyx.github.io/"
 languageCode = "en-us"
 title = "Whipperstacker"
 
