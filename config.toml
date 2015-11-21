@@ -1,0 +1,14 @@
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = false
+baseurl = "http://whipperstacker.com/"
+languageCode = "en-us"
+title = "Whipperstacker"
+
+[permalinks]
+post = "/:year/:month/:day/:title"
+
+[params]
+author = "Katrina Owen"
+copyright = "Katrina Owen"
