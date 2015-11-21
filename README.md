@@ -6,5 +6,4 @@ Blogging about Go.
 
 Theme is based on [Liquorice][1], by Markus Eliassen.
 
-
-[1]https://github.com/eliasson/liquorice
+[1]: https://github.com/eliasson/liquorice
