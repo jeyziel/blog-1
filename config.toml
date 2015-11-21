@@ -12,3 +12,9 @@ post = "/:year/:month/:day/:title"
 [params]
 author = "Katrina Owen"
 copyright = "Katrina Owen"
+
+[menus]
+[[menu.main]]
+name = "Archives"
+identifier = "archives"
+url = "/post/"
