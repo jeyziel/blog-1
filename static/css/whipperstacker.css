@@ -425,3 +425,13 @@ or wrap each row of columns in a <div class="row"> */
     width: 0;
     height: 0;
 }
+
+.subscribe div {
+  width: 380px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.subscribe p {
+  font-weight: bold;
+}
