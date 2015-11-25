@@ -3,6 +3,7 @@ Categories = ["documentation"]
 Description = ""
 Tags = ["tools"]
 date = "2015-09-30T10:59:12-07:00"
+slug = "go-documentation-godoc-godoc-godoc-org-and-go-doc"
 title = "Go Documentation: godoc, go doc, godoc.org, and go/doc—Which One’s Which?"
 +++
 

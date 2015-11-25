@@ -7,7 +7,7 @@ languageCode = "en-us"
 title = "Whipperstacker"
 
 [permalinks]
-post = "/:year/:month/:day/:title"
+post = "/:year/:month/:day/:slug"
 
 [params]
 author = "Katrina Owen"
