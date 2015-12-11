@@ -28,7 +28,7 @@ Take this bit of code, observed in the wild:
 
 Here's the command that will ask `gofmt` to show a diff with the extra parentheses removed:
 
-    gofmt -d -r '(a) -&gt; a' .
+    gofmt -d -r '(a) -> a' .
 
 Running this against the above code provides the following diff:
 
