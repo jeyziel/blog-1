@@ -4,6 +4,13 @@ Blogging about Go.
 
 ## Usage
 
+To get started, clone the repo then run:
+
+```
+$ git submodule init
+$ git submodule update
+```
+
 Regenerate site by running command `hugo`.
 
 ## Credits
