@@ -1,5 +1,5 @@
 +++
-Categories = []
+Categories = ["hugo"]
 Description = ""
 Tags = []
 date = "2015-11-27T08:26:28-07:00"
