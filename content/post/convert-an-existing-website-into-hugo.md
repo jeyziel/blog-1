@@ -14,7 +14,7 @@ When it was just going to be three pages, writing out all the HTML for the prose
 
 You could write a full-on dynamic site, but it would be overkill. You don't need dynamic content, you need HTML that doesn't suck.
 
-[Hugo][hugo], the delightfully easy to use static site generator, is a great choice, but the documentation assumes that you'll be using an existing template. If you've already got a perfectly good site design, then a third-party template is more trouble than it's worth.
+[Hugo][hugo], the delightfully easy to use static site generator, is a great choice, but the documentation assumes that you'll be using an existing theme. If you've already got a perfectly good site design, then a third-party theme is more trouble than it's worth.
 
 Instead, you want to reconfigure your existing website so that hugo _generates that_. Adding new pages will be a simple matter of adding a new markdown file. Everything else should take care of itself.
 
