@@ -71,11 +71,11 @@ Copy the header stuff from `layouts/index.html` into `header.html` and the foote
 Then replace the header stuff and footer stuff in `layouts/index.html` with calls to `partial`:
 
 ```
-{{ partial "header.html" }}
+{{ partial "header.html" . }}
 
 <!-- the main part of the page -->
 
-{{ partial "footer.html" }}
+{{ partial "footer.html" . }}
 ```
 
 If you visit [localhost][localhost] everything should still look right. You should also still be able to generate the site to `public/` with the `hugo` command.
@@ -85,11 +85,11 @@ If you visit [localhost][localhost] everything should still look right. You shou
 Create a new file at `layouts/_default/single.html` and give it the header, footer, and a placeholder for the content:
 
 ```
-{{ partial "header.html" }}
+{{ partial "header.html" . }}
 
 {{ .Content }}
 
-{{ partial "footer.html" }}
+{{ partial "footer.html" . }}
 ```
 
 You might have more boilerplate you want to stick around the `.Content` directive, but this is the basic idea.
